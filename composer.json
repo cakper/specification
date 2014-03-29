@@ -1,0 +1,15 @@
+{
+    "name": "cakper/specification",
+    "license": "MIT",
+    "type": "library",
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {"": "src"},
+        "psr-4": {"spec\\": "spec/"}
+    }
+}
